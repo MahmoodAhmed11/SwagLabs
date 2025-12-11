@@ -78,18 +78,4 @@ TestNG (Priorities, Groups, Assertions)
 
 Clean and maintainable code structure
 
-▶ How to Run
-1. Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
 
-2. Install dependencies
-mvn clean install
-
-3. Run all tests
-mvn test
-
-📊 Test Reporting
-
-TestNG automatically generates HTML reports in:
-
-/test-output/index.html
