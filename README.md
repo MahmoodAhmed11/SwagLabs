@@ -77,5 +77,3 @@ Independent test execution
 TestNG (Priorities, Groups, Assertions)
 
 Clean and maintainable code structure
-
-
