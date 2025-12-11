@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Default Suite</th></tr>
+<tr><td><a href="#t0">Swag_Labs_2</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">106,732</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Swag_Labs_2 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">SwagLabs.testes.C_VisualUser</td><td><a href="#m0">cancelButtonShowsError</a></td><td rowspan="1">1765305241587</td><td rowspan="1">831</td></tr><tr class="failedeven"><td><a href="#m1">spacesInFieldShowsError</a></td><td rowspan="1">1765305211778</td><td rowspan="1">11952</td></tr><tr><th colspan="4">Swag_Labs_2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="9">SwagLabs.testes.C_VisualUser</td><td><a href="#m2">CartBtn_navigate</a></td><td rowspan="1">1765305248872</td><td rowspan="1">2176</td></tr><tr class="passedeven"><td><a href="#m3">ch_CountItems</a></td><td rowspan="1">1765305160326</td><td rowspan="1">2704</td></tr><tr class="passedeven"><td><a href="#m4">ch_SuccessMsg</a></td><td rowspan="1">1765305170791</td><td rowspan="1">2489</td></tr><tr class="passedeven"><td><a href="#m5">emptyFieldShowsError</a></td><td rowspan="1">1765305204216</td><td rowspan="1">1960</td></tr><tr class="passedeven"><td><a href="#m6">emptyFirstNameShowsError</a></td><td rowspan="1">1765305180185</td><td rowspan="1">2200</td></tr><tr class="passedeven"><td><a href="#m7">emptyLastNameShowsError</a></td><td rowspan="1">1765305188762</td><td rowspan="1">1644</td></tr><tr class="passedeven"><td><a href="#m8">emptyPostalCodeShowsError</a></td><td rowspan="1">1765305196505</td><td rowspan="1">1790</td></tr><tr class="passedeven"><td><a href="#m9">itemNameShowsError</a></td><td rowspan="1">1765305229181</td><td rowspan="1">1566</td></tr><tr class="passedeven"><td><a href="#m10">itemPriceShowsError</a></td><td rowspan="1">1765305235718</td><td rowspan="1">1405</td></tr></tbody>
+</table>
+<h2>Swag_Labs_2</h2><h3 id="m0">SwagLabs.testes.C_VisualUser#cancelButtonShowsError</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/cart.html]
+	at SwagLabs.testes.C_VisualUser.cancelButtonShowsError(C_VisualUser.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">SwagLabs.testes.C_VisualUser#spacesInFieldShowsError</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: error-message-container (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62376}, goog:processID: 21200, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62376/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62f7bd494b7dfa703400984ded12a1cf
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at SwagLabs.utils.waits.waitForElementvisible(waits.java:15)
+	at SwagLabs.utils.ElementActions.getText(ElementActions.java:23)
+	at SwagLabs.pages.CheckOutPage.getMsg(CheckOutPage.java:48)
+	at SwagLabs.testes.C_VisualUser.spacesInFieldShowsError(C_VisualUser.java:76)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">SwagLabs.testes.C_VisualUser#CartBtn_navigate</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">SwagLabs.testes.C_VisualUser#ch_CountItems</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">SwagLabs.testes.C_VisualUser#ch_SuccessMsg</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">SwagLabs.testes.C_VisualUser#emptyFieldShowsError</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">SwagLabs.testes.C_VisualUser#emptyFirstNameShowsError</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">SwagLabs.testes.C_VisualUser#emptyLastNameShowsError</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">SwagLabs.testes.C_VisualUser#emptyPostalCodeShowsError</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">SwagLabs.testes.C_VisualUser#itemNameShowsError</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">SwagLabs.testes.C_VisualUser#itemPriceShowsError</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

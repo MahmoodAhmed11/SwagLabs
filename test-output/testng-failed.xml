@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Swag_Labs_2(failed)">
+    <classes>
+      <class name="SwagLabs.testes.C_VisualUser">
+        <methods>
+          <include name="spacesInFieldShowsError"/>
+          <include name="cancelButtonShowsError"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- SwagLabs.testes.C_VisualUser -->
+    </classes>
+  </test> <!-- Swag_Labs_2(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

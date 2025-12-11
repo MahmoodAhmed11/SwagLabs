@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="9" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-09T20:32:25 EET" name="Default Suite" finished-at="2025-12-09T20:34:11 EET" duration-ms="106732">
+    <groups>
+    </groups>
+    <test started-at="2025-12-09T20:32:25 EET" name="Swag_Labs_2" finished-at="2025-12-09T20:34:11 EET" duration-ms="106732">
+      <class name="SwagLabs.testes.C_VisualUser">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:32:25 EET" name="setup" finished-at="2025-12-09T20:32:40 EET" duration-ms="15060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ch_CountItems()[pri:1, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:32:40 EET" name="ch_CountItems" description="Verify checkout overview item count" finished-at="2025-12-09T20:32:43 EET" duration-ms="2704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ch_CountItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:32:43 EET" name="tearDown" finished-at="2025-12-09T20:32:44 EET" duration-ms="1207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:32:44 EET" name="setup" finished-at="2025-12-09T20:32:50 EET" duration-ms="6545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ch_SuccessMsg()[pri:2, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:32:50 EET" name="ch_SuccessMsg" description="Verify successful checkout message" finished-at="2025-12-09T20:32:53 EET" duration-ms="2489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ch_SuccessMsg -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:32:53 EET" name="tearDown" finished-at="2025-12-09T20:32:54 EET" duration-ms="1276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:32:54 EET" name="setup" finished-at="2025-12-09T20:33:00 EET" duration-ms="5625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="emptyFirstNameShowsError()[pri:3, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:33:00 EET" name="emptyFirstNameShowsError" description="Verify error message for empty first name" finished-at="2025-12-09T20:33:02 EET" duration-ms="2200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyFirstNameShowsError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:33:02 EET" name="tearDown" finished-at="2025-12-09T20:33:03 EET" duration-ms="979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:33:03 EET" name="setup" finished-at="2025-12-09T20:33:08 EET" duration-ms="5394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="emptyLastNameShowsError()[pri:4, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:33:08 EET" name="emptyLastNameShowsError" description="Verify error message for empty last name" finished-at="2025-12-09T20:33:10 EET" duration-ms="1644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyLastNameShowsError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:33:10 EET" name="tearDown" finished-at="2025-12-09T20:33:11 EET" duration-ms="951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:33:11 EET" name="setup" finished-at="2025-12-09T20:33:16 EET" duration-ms="5143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="emptyPostalCodeShowsError()[pri:5, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:33:16 EET" name="emptyPostalCodeShowsError" description="Verify error message for empty postal code" finished-at="2025-12-09T20:33:18 EET" duration-ms="1790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPostalCodeShowsError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:33:18 EET" name="tearDown" finished-at="2025-12-09T20:33:19 EET" duration-ms="791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:33:19 EET" name="setup" finished-at="2025-12-09T20:33:24 EET" duration-ms="5128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="emptyFieldShowsError()[pri:6, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:33:24 EET" name="emptyFieldShowsError" description="Verify error message for empty fields" finished-at="2025-12-09T20:33:26 EET" duration-ms="1960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyFieldShowsError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:33:26 EET" name="tearDown" finished-at="2025-12-09T20:33:27 EET" duration-ms="867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:33:27 EET" name="setup" finished-at="2025-12-09T20:33:31 EET" duration-ms="4731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="spacesInFieldShowsError()[pri:7, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:33:31 EET" name="spacesInFieldShowsError" description="Verify error message for spaces in fields" finished-at="2025-12-09T20:33:43 EET" duration-ms="11952" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.className: error-message-container (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62376}, goog:processID: 21200, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62376/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62f7bd494b7dfa703400984ded12a1cf]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: error-message-container (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.176, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62376}, goog:processID: 21200, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62376/devtoo..., se:cdpVersion: 142.0.7444.176, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62f7bd494b7dfa703400984ded12a1cf
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at SwagLabs.utils.waits.waitForElementvisible(waits.java:15)
+at SwagLabs.utils.ElementActions.getText(ElementActions.java:23)
+at SwagLabs.pages.CheckOutPage.getMsg(CheckOutPage.java:48)
+at SwagLabs.testes.C_VisualUser.spacesInFieldShowsError(C_VisualUser.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spacesInFieldShowsError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:33:43 EET" name="tearDown" finished-at="2025-12-09T20:33:44 EET" duration-ms="492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:33:44 EET" name="setup" finished-at="2025-12-09T20:33:49 EET" duration-ms="4946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="itemNameShowsError()[pri:8, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:33:49 EET" name="itemNameShowsError" description="Verify item name in checkout overview" finished-at="2025-12-09T20:33:50 EET" duration-ms="1566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemNameShowsError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:33:50 EET" name="tearDown" finished-at="2025-12-09T20:33:51 EET" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:33:51 EET" name="setup" finished-at="2025-12-09T20:33:55 EET" duration-ms="4314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="itemPriceShowsError()[pri:9, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:33:55 EET" name="itemPriceShowsError" description="Verify item price in checkout overview" finished-at="2025-12-09T20:33:57 EET" duration-ms="1405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemPriceShowsError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:33:57 EET" name="tearDown" finished-at="2025-12-09T20:33:57 EET" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:33:57 EET" name="setup" finished-at="2025-12-09T20:34:01 EET" duration-ms="4026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="cancelButtonShowsError()[pri:10, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:34:01 EET" name="cancelButtonShowsError" description="Verify cancel button redirects to products page" finished-at="2025-12-09T20:34:02 EET" duration-ms="831" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/cart.html]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/cart.html]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at SwagLabs.testes.C_VisualUser.cancelButtonShowsError(C_VisualUser.java:95)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelButtonShowsError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:34:02 EET" name="tearDown" finished-at="2025-12-09T20:34:03 EET" duration-ms="1109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:34:03 EET" name="setup" finished-at="2025-12-09T20:34:08 EET" duration-ms="5337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CartBtn_navigate()[pri:11, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:34:08 EET" name="CartBtn_navigate" description="Verify navigation to cart from checkout" finished-at="2025-12-09T20:34:11 EET" duration-ms="2176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartBtn_navigate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SwagLabs.testes.C_VisualUser@5876a9af]" started-at="2025-12-09T20:34:11 EET" name="tearDown" finished-at="2025-12-09T20:34:11 EET" duration-ms="816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SwagLabs.testes.C_VisualUser -->
+    </test> <!-- Swag_Labs_2 -->
+  </suite> <!-- Default Suite -->
+</testng-results>
